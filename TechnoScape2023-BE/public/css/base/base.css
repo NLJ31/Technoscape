@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "YSBlack";
+    src: url('../../fonts/YouTubeSans/YouTubeSansBlack.otf');
+}
+@font-face {
+    font-family: "YSBold";
+    src: url('../../fonts/YouTubeSans/YouTubeSansBold.otf');
+}
+@font-face {
+    font-family: "YSDarkBlack";
+    src: url('../../fonts/YouTubeSans/YouTubeSansDarkBlack.otf');
+}
+@font-face {
+    font-family: "YSDarkBold";
+    src: url('../../fonts/YouTubeSans/YouTubeSansDarkBold.otf');
+}
+@font-face {
+    font-family: "YSDarkExtraBold";
+    src: url('../../fonts/YouTubeSans/YouTubeSansDarkExtraBold.otf');
+}
+@font-face {
+    font-family: "YSDarkLight";
+    src: url('../../fonts/YouTubeSans/YouTubeSansDarkLight.otf');
+}
+@font-face {
+    font-family: "YSDarkMedium";
+    src: url('../../fonts/YouTubeSans/YouTubeSansDarkMedium.otf');
+}
+@font-face {
+    font-family: "YSDarkRegular";
+    src: url('../../fonts/YouTubeSans/YouTubeSansDarkRegular.otf');
+}
+@font-face {
+    font-family: "YSDarkSemiBold";
+    src: url('../../fonts/YouTubeSans/YouTubeSansDarkSemiBold.otf');
+}
+@font-face {
+    font-family: "YSExtraBold";
+    src: url('../../fonts/YouTubeSans/YouTubeSansExtraBold.otf');
+}
+@font-face {
+    font-family: "YSLight";
+    src: url('../../fonts/YouTubeSans/YouTubeSansLight.otf');
+}
+@font-face {
+    font-family: "YSMedium";
+    src: url('../../fonts/YouTubeSans/YouTubeSansMedium.otf');
+}
+@font-face {
+    font-family: "YSRegular";
+    src: url('../../fonts/YouTubeSans/YouTubeSansRegular.otf');
+}
+@font-face {
+    font-family: "YSSemiBold";
+    src: url('../../fonts/YouTubeSans/YouTubeSansSemiBold.otf');
+}
+@font-face {
+    font-family: "ABigDeal";
+    src: url('../../fonts/ABigDeal/aBigDeal.otf');
+}
+

@@ -1,0 +1,211 @@
+nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 14px;
+    gap: 10px;
+}
+
+/* Join Group */
+.button-slide {
+    position: absolute;
+    width: 135px;
+    height: 60px;
+    top: 5px;
+    left: 8px;
+    background-color: #246fff;
+    border-radius: 100px;
+    transition: 0.5s all ease-in-out;
+}
+
+ul li:nth-child(1).active ~ .button-slide {
+    left: 8px;
+}
+
+ul li:nth-child(2).active ~ .button-slide {
+    left: 172px;
+}
+
+ul li:nth-child(3).active ~ .button-slide {
+    left: 337px;
+}
+
+/* Calendar */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    width: 19rem;
+    height: auto;
+}
+
+.month {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.month h1 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.month p {
+    font-size: 10px;
+}
+
+.weekdays {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.weekdays div {
+    font-size: 12px;
+    color: #f4f4f4;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.days div {
+    font-size: 14px;
+    color: #f4f4f4;
+    margin: 4.3px;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days div:hover:not(.today) {
+    background: radial-gradient(
+                763.89% 1810.97% at -18.02% 50%,
+                #010101 0%,
+                #454545 100%
+            )
+            padding-box,
+        linear-gradient(188.09deg, #8be1f5 4.98%, #acefff 4.99%, #42dbff 93.78%)
+            border-box;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+    opacity: 0.5;
+}
+
+.today {
+    background: radial-gradient(
+                763.89% 1810.97% at -18.02% 50%,
+                #010101 0%,
+                #454545 100%
+            )
+            padding-box,
+        linear-gradient(188.09deg, #8be1f5 4.98%, #acefff 4.99%, #42dbff 93.78%)
+            border-box;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 913px) {
+    ul li:nth-child(1).active ~ .button-slide {
+        left: 6px;
+    }
+
+    ul li:nth-child(2).active ~ .button-slide {
+        left: 180px;
+    }
+
+    ul li:nth-child(3).active ~ .button-slide {
+        left: 355px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .button-slide {
+        width: 60px;
+        height: 30px;
+        top: 2.5px;
+        left: 5px;
+    }
+
+    ul li:nth-child(1).active ~ .button-slide {
+        left: 5px;
+    }
+
+    ul li:nth-child(2).active ~ .button-slide {
+        left: 83px;
+    }
+
+    ul li:nth-child(3).active ~ .button-slide {
+        left: 162px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .days div {
+        margin: 2.7px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .days div {
+        margin: 3.8px;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .days div {
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    .days div {
+        margin: 6.5px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .days div {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .days div {
+        margin: 4.3px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .days div {
+        margin: 8.8px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .days div {
+        margin: 10px;
+    }
+}

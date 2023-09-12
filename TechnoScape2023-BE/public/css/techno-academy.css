@@ -1,0 +1,33 @@
+.gear-float {
+    transform: translatey(0px);
+    rotate: 0;
+    animation: gfloat 5s infinite linear;
+}
+
+@keyframes gfloat {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.iora {
+    width: 400px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 913px) {
+    .iora {
+        width: 375px;
+        height: 375px;
+    }
+}
+
+@media only screen and (max-width: 541px) {
+    .iora {
+        width: 175px;
+        height: 175px;
+    }
+}

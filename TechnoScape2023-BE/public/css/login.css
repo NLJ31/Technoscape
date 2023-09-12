@@ -1,0 +1,29 @@
+.colour-gradient-1 {
+    background: linear-gradient(90deg, #FFF52F 38.8%, #F93636 60.45%, #2F76FF 84.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.colour-gradient-2 {
+    background: linear-gradient(90deg,  #F93636 20.45%, #2F76FF 84.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+input[type="password"]::-ms-reveal{
+    display: none;
+}
+
+iconify-icon {
+    color: #707070;
+}
+
+@media only screen and (min-width: 1028px){
+    .width-desktop{
+        width: 30rem;
+    }
+}
